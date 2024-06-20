@@ -4,6 +4,8 @@ import { FaReadme } from "react-icons/fa";
 import Socials from "@/components/Socials";
 import Photo from "@/components/Photo";
 import Stats from "@/components/Stats";
+import Footer from "@/components/Footer";
+
 
 const Home = () => {
   return (
@@ -13,11 +15,11 @@ const Home = () => {
           xl:pt-8 xl:pb-24">
           {/* text */}
           <div className="text-center xl:text-left order-2 xl:order-none">
-            <span className="text-xl">Software Developer</span>
+            <span className="text-xl">Software Engineer</span>
             <h1 className="h1">
               <span className="text-accent">Jasur Khamzayev</span>
             </h1>
-            <p className="max-w-[500px] mb-9 text-white/80">I came to this field through my parents and my interest. Currently, I am continuing this field at the Higher Education Institution. I am always trying to become a specialist in my field in the future.
+            <p className="max-w-[500px] mb-9 text-white/80">"In the digital age and we code the future where imagination meets innovation!"
             </p>
             {/* CV and social */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
@@ -25,14 +27,14 @@ const Home = () => {
                 variant="outline"
                 size="lg"
                 className="uppercase flex items-center gap-2">
-                <a href="/assets/CV.docx"><span>Download CV</span></a>
+                <a href="/assets/resume.pdf"><span>Download CV</span></a>
                 <FiDownload className="text-xl" />
               </Button>
               <Button
                 variant="outline"
                 size="lg"
                 className="uppercase flex items-center gap-2">
-                <a href="/blog"><span>Read Blog</span></a>
+                <a href="https://blog.jasurdev.com"><span>Read Blog</span></a>
                 <FaReadme className="text-xl" />
               </Button>
               <div className="mb-8 xl:mb-0">
@@ -48,7 +50,8 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Stats/>
+      <Stats />
+      <Footer/>
     </section>
   )
 }

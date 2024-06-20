@@ -2,18 +2,19 @@ import Link from "next/link";
 import { Button } from "./ui/button";
 import Nav from "./Nav";
 import MobileNav from "./MobileNav";
+import logo from "../public/assets/logo.png"
+import Image from "next/image";
 
 
 const Header = () => {
     return (
         <header className="py-8 xl:py-12 text-white">
             <div className="container mx-auto flex justify-between items-center">
-                {/* logo */}
+                {/* logo */}  
                 <Link href="/">
-                    <h1 className="text-4xl font-semibold">
-                        Jasur <span className="text-accent"> Dev</span>
-                    </h1>
+                    <Image src={logo} alt="logo" />
                 </Link>
+                
                 {/* nav */}
                 <div className="hidden xl:flex items-center gap-8">
                     <Nav />

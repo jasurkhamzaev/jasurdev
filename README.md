@@ -41,3 +41,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 "# jasurkhamzaev.github.io" 
 "# jasurkhamzaev.github.io" 
 "# jasurkhamzaev.github.io" 
+"# jasurdev.com"  

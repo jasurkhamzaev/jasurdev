@@ -11,10 +11,6 @@ const links = [
         path: "/"
     },
     {
-        name: "About",
-        path: "/about"
-    },
-    {
         name: "Resume",
         path: "/resume"
     },
@@ -23,11 +19,11 @@ const links = [
         path: "/work"
     }, {
         name: "Blog",
-        path: "/blog"
+        path: "https://blog.jasurdev.com"
     },
     {
         name: "Channel",
-        path: "/channel"
+        path: "https://t.me/jasurtechno"
     },
 ];
 

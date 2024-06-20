@@ -1,10 +1,11 @@
 import Link from "next/link";
-import { FaLinkedinIn, FaFacebook, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaLinkedinIn, FaFacebook, FaYoutube } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 const social = [
-    { icon: <FaLinkedinIn />, path: "linkedin.com/in/jasur-khamzayev" },
-    { icon: <FaFacebook />, path: "facebook.com/profile.php?id=100091393442463" },
-    { icon: <FaTwitter />, path: "twitter.com/JasurKhamzayev" },
+    { icon: <FaLinkedinIn />, path: "https://www.linkedin.com/in/jasur-khamzayev" },
+    { icon: <FaFacebook />, path: "https://www.facebook.com/profile.php?id=100091393442463" },
+    { icon: <FaXTwitter />, path: "https://www.twitter.com/JasurKhamzayev" },
     { icon: <FaYoutube />, path: "https://www.youtube.com/@JasurKhamzayev" },
 ]
 

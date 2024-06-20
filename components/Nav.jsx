@@ -3,17 +3,14 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
+
 const links = [
     {
         name: "Home",
         path: "/"
     },
     {
-        name: "About",
-        path: "/about"
-    },
-    {
-        name: "Resume",
+        name: "My Resume",
         path: "/resume"
     },
     {
@@ -21,12 +18,12 @@ const links = [
         path: "/work"
     }, {
         name: "Blog",
-        path: "/blog"
+        path: "https://blog.jasurdev.com"
     },
     {
         name: "Channel",
-        path: "/channel"
-    },
+        path: "https://t.me/jasurtechno"
+    }
 ]
 
 const Nav = () => {

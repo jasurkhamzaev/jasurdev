@@ -18,22 +18,18 @@ import {
 
 const about = {
     title: 'About Me',
-    description: "loremdahgdajdadad",
+    description: "As a Full Stack Developer at Jasur Dev Company, I develop and implement advanced caching mechanisms using technologies such as JavaScript, React.JS, TypeScript.JS, and Next.JS. I design and implement distributed technology systems, achieving scalability and high performance using architectural best practices. Currently, I am taking a bachelor's degree in Computer Engineering, IT - Service, InformationSecurity, Multimedia Technologies at Tashkent International University of Education, where I study software development, data structures, algorithms and databases.",
     info: [
         {
-            fieldName: "Name :",
+            fieldName: "Full Name :",
             fieldValue: "Jasur Khamzayev"
-        },
-        {
-            fieldName: "Phone :",
-            fieldValue: "(+998) 88 146 46 48"
         },
         {
             fieldName: "Experience :",
             fieldValue: "2+ Years"
         },
         {
-            fieldName: "Linkedin :",
+            fieldName: "Linkedin Page:",
             fieldValue: "Jasur Khamzayev"
         },
         {
@@ -41,8 +37,8 @@ const about = {
             fieldValue: "info@jasurdev.com"
         },
         {
-            fieldName: "Xobby :",
-            fieldValue: "Computer Science"
+            fieldName: "Specialist :",
+            fieldValue: "Sofware Developer"
         },
         {
             fieldName: "Languages :",
@@ -54,55 +50,28 @@ const about = {
 const experience = {
     icon: '/assets/resume/badge.svg',
     title: 'My Experience',
-    description: "Loremsjdfjksdfskj",
     items: [
         {
-            company: "Jasur Dev LLC",
+            company: "Upwork Freelancer",
+            position: "Web Developer",
+            duration: "Until December 2022 ",
+        },
+        {
+            company: "Zamin Mobile",
             position: "Full Stack Developer",
-            duration: "2024 - Present",
+            duration: "From June to early July 2023",
         },
         {
             company: "Jasur Dev LLC",
-            position: "Full Stack Developer",
+            position: "Mobile Developer",
             duration: "2024 - Present",
         },
-        {
-            company: "Jasur Dev LLC",
-            position: "Full Stack Developer",
-            duration: "2024 - Present",
-        },
-        {
-            company: "Jasur Dev LLC",
-            position: "Full Stack Developer",
-            duration: "2024 - Present",
-        },
-        {
-            company: "Jasur Dev LLC",
-            position: "Full Stack Developer",
-            duration: "2024 - Present",
-        },
-        {
-            company: "Jasur Dev LLC",
-            position: "Full Stack Developer",
-            duration: "2024 - Present",
-        },
-        {
-            company: "Jasur Dev LLC",
-            position: "Full Stack Developer",
-            duration: "2024 - Present",
-        },
-        {
-            company: "Jasur Dev LLC",
-            position: "Full Stack Developer",
-            duration: "2024 - Present",
-        }
     ]
 };
 
 const education = {
     icon: '/assets/resume/badge.svg',
     title: 'My Education',
-    description: "Loremsjdfjksdfskj",
     items: [
         {
             institution: "346-school Tashkent, Uzbekitan",
@@ -110,9 +79,9 @@ const education = {
             duration: "2011 - 2022 ",
         },
         {
-            institution: "Tashkent International University Of Education",
-            degree: "Full Stack and Mobile Developer",
-            duration: "2023 - To the present day",
+            institution: "Tashkent International University of Education",
+            degree: "IT, Business and Education Management",
+            duration: "2022 - To the present day",
         },
         {
             institution: "Udemy Online Course Platform",
@@ -129,7 +98,7 @@ const education = {
 
 const skills = {
     title: "My Skills",
-    description: "loremasdbasd",
+    description: "I work with a team of talented engineers to create web and mobile games that are engaging, interactive, and user-friendly. I use HTML, CSS, JavaScript, Node.js, Vue.js, Python, Python GUI, PHP, Bootstrap, Java, Kotlin, Dart, and Flutter to design, develop, and test various features and functionalities for our games.",
     skillList: [
         {
             icon: <FaHtml5 />,
@@ -165,7 +134,7 @@ const skills = {
         },
         {
             icon: <SiNextdotjs />,
-            name: "TAILWIND.CSS",
+            name: "NEXT.JS",
         },
         {
             icon: <SiTypescript />,
@@ -194,6 +163,7 @@ import {
 
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { motion } from 'framer-motion';
+import Footer from '@/components/Footer';
 
 const Resume = () => {
     return (
@@ -334,6 +304,7 @@ const Resume = () => {
                         </TabsContent>
                     </div>
                 </Tabs>
+                <Footer/>
             </div>
         </motion.div>
     )

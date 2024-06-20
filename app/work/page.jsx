@@ -14,6 +14,7 @@ import {
 import Link from "next/link";
 import Image from "next/image";
 import WorkSliderBtns from "@/components/WorkSliderBtns";
+import Footer from "@/components/Footer";
 
 const projects = [
     {
@@ -72,7 +73,7 @@ const Work = () => {
                 opacity: 1,
                 transition: {
                     delay: 2.4,
-                    duration: 0.4,
+                    duration: 0.3,
                     ease: "easeIn"
                 },
             }}
@@ -160,6 +161,7 @@ const Work = () => {
                         </Swiper>
                     </div>
                 </div>
+                <Footer/>
             </div>
         </motion.section>
     );
